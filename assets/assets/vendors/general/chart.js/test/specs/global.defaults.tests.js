@@ -114,7 +114,7 @@ describe('Default Configs', function() {
 					labels: ['label1', 'label2', 'label3'],
 					datasets: [{
 						data: [10, 20, NaN],
-						backgroundColor: ['red', 'green', 'blue'],
+						backgroundColor: ['red', 'green', '#3abaf4'],
 						borderWidth: 2,
 						borderColor: '#000'
 					}]
@@ -138,7 +138,7 @@ describe('Default Configs', function() {
 				lineWidth: 2
 			}, {
 				text: 'label3',
-				fillStyle: 'blue',
+				fillStyle: '#3abaf4',
 				hidden: true,
 				index: 2,
 				strokeStyle: '#000',
@@ -155,7 +155,7 @@ describe('Default Configs', function() {
 					labels: ['label1', 'label2', 'label3'],
 					datasets: [{
 						data: [10, 20, NaN],
-						backgroundColor: ['red', 'green', 'blue'],
+						backgroundColor: ['red', 'green', '#3abaf4'],
 						borderWidth: 2,
 						borderColor: '#000'
 					}]
@@ -230,7 +230,7 @@ describe('Default Configs', function() {
 					labels: ['label1', 'label2', 'label3'],
 					datasets: [{
 						data: [10, 20, NaN],
-						backgroundColor: ['red', 'green', 'blue'],
+						backgroundColor: ['red', 'green', '#3abaf4'],
 						borderWidth: 2,
 						borderColor: '#000'
 					}]
@@ -254,7 +254,7 @@ describe('Default Configs', function() {
 				lineWidth: 2
 			}, {
 				text: 'label3',
-				fillStyle: 'blue',
+				fillStyle: '#3abaf4',
 				hidden: true,
 				index: 2,
 				strokeStyle: '#000',
@@ -271,7 +271,7 @@ describe('Default Configs', function() {
 					labels: ['label1', 'label2', 'label3'],
 					datasets: [{
 						data: [10, 20, NaN],
-						backgroundColor: ['red', 'green', 'blue'],
+						backgroundColor: ['red', 'green', '#3abaf4'],
 						borderWidth: 2,
 						borderColor: '#000'
 					}]

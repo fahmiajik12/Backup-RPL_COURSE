@@ -691,7 +691,7 @@ describe('Chart.controllers.bar', function() {
 				}, {
 					data: [10, 15, 0, -4],
 					label: 'dataset2',
-					borderColor: 'blue'
+					borderColor: '#3abaf4'
 				}],
 				labels: ['label1', 'label2', 'label3', 'label4']
 			},
@@ -747,7 +747,7 @@ describe('Chart.controllers.bar', function() {
 				label: chart.data.labels[i],
 				backgroundColor: 'red',
 				borderSkipped: 'top',
-				borderColor: 'blue',
+				borderColor: '#3abaf4',
 				borderWidth: 1
 			}));
 		});

@@ -1,16 +1,3 @@
-<!--
-@Project: Socamp
-@Programmer: Kelompok1
-@Website: https://linktr.ee/syauqi
-@Email : syaokay@gmail.com
-
-@About-Socamp :
-Web Edukasi Open Source yang dibuat oleh Kelompok1.
-Socamp adalah Web edukasi yang dilengkapi video, materi dan sistem ujian
-yang tersedia secara gratis. Socamp dibuat ditujukan agar para siswa dan
-guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
--->
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -64,7 +51,7 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 				<aside id="sidebar-wrapper">
 					<div class="sidebar-brand text-danger">
 						<div>
-						<a href="<?= base_url('admin') ?>" style="font-size: 30px; font-weight: 900; font-family: 'Poppins', sans-serif; color: blue;" class="text-center">
+						<a href="<?= base_url('admin') ?>" style="font-size: 30px; font-weight: 900; font-family: 'Poppins', sans-serif; color: #3abaf4;" class="text-center">
 							<i style="font-size: 30px;" class="fas fa-graduation-cap"></i> | Socamp <sup>beta</sup>
 						</a>
 						</div>
@@ -132,7 +119,7 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
 					<div class="">
 						<div class="hero text-white hero-bg-image" data-background="https://images.unsplash.com/photo-1492571350019-22de08371fd3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=649&q=80">
 							<div class="col-md-4 mx-auto rounded-circle bg-white p-3" style="border-radius:3px;box-shadow:rgba(0, 0, 0, 0.03) 0px 4px 8px 0px;">
-								<img src="<?= base_url('assets/img/') ?>Syauqi.jpg" class="card-img-top rounded-circle img-responsive" alt="...">
+								<img src="<?= base_url('assets/img/') ?>kel1.jpg" class="card-img-top rounded-circle img-responsive" alt="...">
 							</div>
 						</div>
 					</div>

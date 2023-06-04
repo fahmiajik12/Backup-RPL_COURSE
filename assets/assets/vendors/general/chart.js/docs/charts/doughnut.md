@@ -13,7 +13,7 @@ They are also registered under two aliases in the `Chart` core. Other than their
     "data": {
         "labels": [
             "Red",
-            "Blue",
+            "#3abaf4",
             "Yellow",
         ],
         "datasets": [{
@@ -94,7 +94,7 @@ data = {
     labels: [
         'Red',
         'Yellow',
-        'Blue'
+        '#3abaf4'
     ]
 };
 ```

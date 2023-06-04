@@ -56,7 +56,7 @@
 ==================
 
 ## Core
-  * Pass on the value of the used submit button for scripted submits (#2019)
+  * Pass on the value of the used submit button for scripted submits (#2023)
   * Removed aria-required attribute (#2012)
   * Assign rules to contenteditable via `.validate()` and `.rules()` (#1947)
   * Count invalid fields with empty message in `numberOfInvalids()` (#1942)
@@ -84,7 +84,7 @@
   * Add note about trimming whitespaces inside required method (#2028)
 
 ## Tests
-  * Pass on the value of the used submit button for scripted submits (#2019)
+  * Pass on the value of the used submit button for scripted submits (#2023)
   * Use assert#pushResult instead of assert#push (#2018)
   
 ## All

@@ -13,7 +13,7 @@ This type of chart is often useful when we want to show a comparison data simila
             "Green",
             "Yellow",
             "Grey",
-            "Blue"
+            "#3abaf4"
         ],
         "datasets": [{
             "label": "My First Dataset",
@@ -88,7 +88,7 @@ data = {
     labels: [
         'Red',
         'Yellow',
-        'Blue'
+        '#3abaf4'
     ]
 };
 ```

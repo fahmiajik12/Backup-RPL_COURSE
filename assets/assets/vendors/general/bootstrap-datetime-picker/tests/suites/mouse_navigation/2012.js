@@ -185,7 +185,7 @@ test('Navigating prev/next in decade view', function(){
     target.click();
     ok(this.picker.find('.datetimepicker-years').is(':visible'), 'Year picker is visible');
     equal(this.dp.viewMode, 4);
-    equal(this.picker.find('.datetimepicker-years thead th.switch').text(), '2010-2019');
+    equal(this.picker.find('.datetimepicker-years thead th.switch').text(), '2010-2023');
     // Not modified when switching modes
     datesEqual(this.dp.viewDate, UTCDate(2012, 2, 31));
     datesEqual(this.dp.date, UTCDate(2012, 2, 31));

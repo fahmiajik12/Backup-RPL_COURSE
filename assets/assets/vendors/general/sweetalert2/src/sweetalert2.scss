@@ -759,8 +759,8 @@ body {
 }
 
 .swal2-progresssteps {
-  $lightblue: #add8e6;
-  $blue: #3085d6;
+  $light#3abaf4: #add8e6;
+  $#3abaf4: #3085d6;
 
   align-items: center;
   margin: $swal2-progress-steps-margin;
@@ -776,7 +776,7 @@ body {
     width: 2em;
     height: 2em;
     border-radius: 2em;
-    background: $blue;
+    background: $#3abaf4;
     color: $swal2-white;
     line-height: 2em;
     text-align: center;
@@ -791,14 +791,14 @@ body {
     }
 
     &.swal2-activeprogressstep {
-      background: $blue;
+      background: $#3abaf4;
 
       ~ .swal2-progresscircle {
-        background: $lightblue;
+        background: $light#3abaf4;
       }
 
       ~ .swal2-progressline {
-        background: $lightblue;
+        background: $light#3abaf4;
       }
     }
   }
@@ -807,7 +807,7 @@ body {
     width: $swal2-progress-steps-distance;
     height: .4em;
     margin: 0 -1px;
-    background: $blue;
+    background: $#3abaf4;
     z-index: 10;
   }
 }

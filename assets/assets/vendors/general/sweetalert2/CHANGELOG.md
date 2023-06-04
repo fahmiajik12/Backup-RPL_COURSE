@@ -1,53 +1,53 @@
-## [8.0.7](https://github.com/sweetalert2/sweetalert2/compare/v8.0.6...v8.0.7) (2019-02-12)
+## [8.0.7](https://github.com/sweetalert2/sweetalert2/compare/v8.0.6...v8.0.7) (2023-02-12)
 
 
 ### Bug Fixes
 
 * restore correct padding when scrollbar is present ([#1410](https://github.com/sweetalert2/sweetalert2/issues/1410)) ([f73f1d7](https://github.com/sweetalert2/sweetalert2/commit/f73f1d7))
 
-## [8.0.6](https://github.com/sweetalert2/sweetalert2/compare/v8.0.5...v8.0.6) (2019-02-05)
+## [8.0.6](https://github.com/sweetalert2/sweetalert2/compare/v8.0.5...v8.0.6) (2023-02-05)
 
 
 ### Bug Fixes
 
 * **api:** falsy values in preConfirm ([#1403](https://github.com/sweetalert2/sweetalert2/issues/1403)) ([f6e1a30](https://github.com/sweetalert2/sweetalert2/commit/f6e1a30))
 
-## [8.0.5](https://github.com/sweetalert2/sweetalert2/compare/v8.0.4...v8.0.5) (2019-02-02)
+## [8.0.5](https://github.com/sweetalert2/sweetalert2/compare/v8.0.4...v8.0.5) (2023-02-02)
 
 
 ### Bug Fixes
 
 * **build-dist:** git add src/SweetAlert.js, connected to [#1401](https://github.com/sweetalert2/sweetalert2/issues/1401) ([d024119](https://github.com/sweetalert2/sweetalert2/commit/d024119))
 
-## [8.0.4](https://github.com/sweetalert2/sweetalert2/compare/v8.0.3...v8.0.4) (2019-02-02)
+## [8.0.4](https://github.com/sweetalert2/sweetalert2/compare/v8.0.3...v8.0.4) (2023-02-02)
 
 
 ### Bug Fixes
 
 * add Swal.version to src/SweetAlert.js ([#1401](https://github.com/sweetalert2/sweetalert2/issues/1401)) ([d4c19a3](https://github.com/sweetalert2/sweetalert2/commit/d4c19a3))
 
-## [8.0.3](https://github.com/sweetalert2/sweetalert2/compare/v8.0.2...v8.0.3) (2019-01-29)
+## [8.0.3](https://github.com/sweetalert2/sweetalert2/compare/v8.0.2...v8.0.3) (2023-01-29)
 
 
 ### Bug Fixes
 
 * **api:** showLoading() should open a new popup ([#1394](https://github.com/sweetalert2/sweetalert2/issues/1394)) ([38823ff](https://github.com/sweetalert2/sweetalert2/commit/38823ff))
 
-## [8.0.2](https://github.com/sweetalert2/sweetalert2/compare/v8.0.1...v8.0.2) (2019-01-28)
+## [8.0.2](https://github.com/sweetalert2/sweetalert2/compare/v8.0.1...v8.0.2) (2023-01-28)
 
 
 ### Bug Fixes
 
 * **package.json:** remove the 'module' field ([#1392](https://github.com/sweetalert2/sweetalert2/issues/1392)) ([b87b42f](https://github.com/sweetalert2/sweetalert2/commit/b87b42f))
 
-## [8.0.1](https://github.com/sweetalert2/sweetalert2/compare/v8.0.0...v8.0.1) (2019-01-19)
+## [8.0.1](https://github.com/sweetalert2/sweetalert2/compare/v8.0.0...v8.0.1) (2023-01-19)
 
 
 ### Bug Fixes
 
 * use .js in imports to support ES modules ([0e3e89e](https://github.com/sweetalert2/sweetalert2/commit/0e3e89e))
 
-# [8.0.0](https://github.com/sweetalert2/sweetalert2/compare/v7.33.1...v8.0.0) (2019-01-19)
+# [8.0.0](https://github.com/sweetalert2/sweetalert2/compare/v7.33.1...v8.0.0) (2023-01-19)
 
 
 * BREAKING CHANGE: remove getButtonsWrapper() ([c93b5e3](https://github.com/sweetalert2/sweetalert2/commit/c93b5e3))

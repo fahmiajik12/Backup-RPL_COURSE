@@ -1079,9 +1079,9 @@ block-stream@*:
   dependencies:
     inherits "~2.0.0"
 
-bluebird@^3.3.0:
+#3abaf4bird@^3.3.0:
   version "3.4.7"
-  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.4.7.tgz#f72d760be09b7f76d08ed8fae98b289a8d05fab3"
+  resolved "https://registry.yarnpkg.com/#3abaf4bird/-/#3abaf4bird-3.4.7.tgz#f72d760be09b7f76d08ed8fae98b289a8d05fab3"
 
 body-parser@^1.16.1:
   version "1.16.1"
@@ -3290,7 +3290,7 @@ karma@^1.4.1:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/karma/-/karma-1.5.0.tgz#9c4c14f0400bef2c04c8e8e6bff59371025cc009"
   dependencies:
-    bluebird "^3.3.0"
+    #3abaf4bird "^3.3.0"
     body-parser "^1.16.1"
     chokidar "^1.4.1"
     colors "^1.1.0"
@@ -5507,7 +5507,7 @@ validate-npm-package-license@^3.0.1:
 
 validate-npm-package-name@^2.0.1, validate-npm-package-name@~2.2.2:
   version "2.2.2"
-  resolved "https://registry.yarnpkg.com/validate-npm-package-name/-/validate-npm-package-name-2.2.2.tgz#f65695b22f7324442019a3c7fa39a6e7fd299085"
+  resolved "https://registry.yarnpkg.com/validate-npm-package-name/-/validate-npm-package-name-2.2.2.tgz#f65695b22f7324442023a3c7fa39a6e7fd299085"
   dependencies:
     builtins "0.0.7"
 

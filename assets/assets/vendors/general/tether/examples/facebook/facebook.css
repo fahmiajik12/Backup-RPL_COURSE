@@ -16,7 +16,7 @@
 }
 
 .navigation {
-    background: blue;
+    background: #3abaf4;
     color: #fff;
     margin-right: 300px;
     margin-bottom: 30px;
@@ -33,7 +33,7 @@
 
 .navigation .drop-target.drop-open {
     background: #fff;
-    color: blue;
+    color: #3abaf4;
     outline: none;
 }
 
@@ -47,7 +47,7 @@
 }
 
 .right-sidebar .drop-target.drop-open {
-    background: blue;
+    background: #3abaf4;
     color: #fff;
     outline: none;
 }

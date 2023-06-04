@@ -538,7 +538,7 @@ describe('Time scale tests', function() {
 
 		it('should build the correct ticks', function() {
 			// Where 'correct' is a two year spacing.
-			expect(getTicksLabels(this.scale)).toEqual(['2005', '2007', '2009', '2011', '2013', '2015', '2017', '2019']);
+			expect(getTicksLabels(this.scale)).toEqual(['2005', '2007', '2009', '2011', '2013', '2015', '2017', '2023']);
 		});
 
 		it('should have ticks with accurate labels', function() {
@@ -756,7 +756,7 @@ describe('Time scale tests', function() {
 				this.chart = window.acquireChart({
 					type: 'line',
 					data: {
-						labels: ['2017', '2019', '2023', '2025', '2042'],
+						labels: ['2017', '2023', '2023', '2025', '2042'],
 						datasets: [{data: [0, 1, 2, 3, 4, 5]}]
 					},
 					options: {
@@ -782,7 +782,7 @@ describe('Time scale tests', function() {
 				expect(scale.min).toEqual(+moment('2017', 'YYYY'));
 				expect(scale.max).toEqual(+moment('2042', 'YYYY'));
 				expect(getTicksLabels(scale)).toEqual([
-					'2017', '2019', '2023', '2025', '2042']);
+					'2017', '2023', '2023', '2025', '2042']);
 			});
 			it ('should not add ticks for min and max if they extend the labels range', function() {
 				var chart = this.chart;
@@ -796,7 +796,7 @@ describe('Time scale tests', function() {
 				expect(scale.min).toEqual(+moment('2012', 'YYYY'));
 				expect(scale.max).toEqual(+moment('2051', 'YYYY'));
 				expect(getTicksLabels(scale)).toEqual([
-					'2017', '2019', '2023', '2025', '2042']);
+					'2017', '2023', '2023', '2025', '2042']);
 			});
 			it ('should not duplicate ticks if min and max are the labels limits', function() {
 				var chart = this.chart;
@@ -810,7 +810,7 @@ describe('Time scale tests', function() {
 				expect(scale.min).toEqual(+moment('2017', 'YYYY'));
 				expect(scale.max).toEqual(+moment('2042', 'YYYY'));
 				expect(getTicksLabels(scale)).toEqual([
-					'2017', '2019', '2023', '2025', '2042']);
+					'2017', '2023', '2023', '2025', '2042']);
 			});
 			it ('should correctly handle empty `data.labels` using "day" if `time.unit` is undefined`', function() {
 				var chart = this.chart;
@@ -843,7 +843,7 @@ describe('Time scale tests', function() {
 				this.chart = window.acquireChart({
 					type: 'line',
 					data: {
-						labels: ['2017', '2019', '2023', '2025', '2042'],
+						labels: ['2017', '2023', '2023', '2025', '2042'],
 						datasets: [
 							{data: [0, 1, 2, 3, 4, 5]},
 							{data: [
@@ -876,7 +876,7 @@ describe('Time scale tests', function() {
 				expect(scale.min).toEqual(+moment('2017', 'YYYY'));
 				expect(scale.max).toEqual(+moment('2043', 'YYYY'));
 				expect(getTicksLabels(scale)).toEqual([
-					'2017', '2018', '2019', '2023', '2025', '2042', '2043']);
+					'2017', '2018', '2023', '2023', '2025', '2042', '2043']);
 			});
 			it ('should not add ticks for min and max if they extend the labels range', function() {
 				var chart = this.chart;
@@ -890,7 +890,7 @@ describe('Time scale tests', function() {
 				expect(scale.min).toEqual(+moment('2012', 'YYYY'));
 				expect(scale.max).toEqual(+moment('2051', 'YYYY'));
 				expect(getTicksLabels(scale)).toEqual([
-					'2017', '2018', '2019', '2023', '2025', '2042', '2043']);
+					'2017', '2018', '2023', '2023', '2025', '2042', '2043']);
 			});
 			it ('should not duplicate ticks if min and max are the labels limits', function() {
 				var chart = this.chart;
@@ -904,7 +904,7 @@ describe('Time scale tests', function() {
 				expect(scale.min).toEqual(+moment('2017', 'YYYY'));
 				expect(scale.max).toEqual(+moment('2043', 'YYYY'));
 				expect(getTicksLabels(scale)).toEqual([
-					'2017', '2018', '2019', '2023', '2025', '2042', '2043']);
+					'2017', '2018', '2023', '2023', '2025', '2042', '2043']);
 			});
 			it ('should correctly handle empty `data.labels` using "day" if `time.unit` is undefined`', function() {
 				var chart = this.chart;
@@ -942,7 +942,7 @@ describe('Time scale tests', function() {
 				this.chart = window.acquireChart({
 					type: 'line',
 					data: {
-						labels: ['2017', '2019', '2023', '2025', '2042'],
+						labels: ['2017', '2023', '2023', '2025', '2042'],
 						datasets: [{data: [0, 1, 2, 3, 4, 5]}]
 					},
 					options: {
@@ -972,7 +972,7 @@ describe('Time scale tests', function() {
 				var slice = scale.width / 4;
 
 				expect(scale.getPixelForValue('2017')).toBeCloseToPixel(start);
-				expect(scale.getPixelForValue('2019')).toBeCloseToPixel(start + slice);
+				expect(scale.getPixelForValue('2023')).toBeCloseToPixel(start + slice);
 				expect(scale.getPixelForValue('2023')).toBeCloseToPixel(start + slice * 2);
 				expect(scale.getPixelForValue('2025')).toBeCloseToPixel(start + slice * 3);
 				expect(scale.getPixelForValue('2042')).toBeCloseToPixel(start + slice * 4);
@@ -1026,7 +1026,7 @@ describe('Time scale tests', function() {
 				this.chart = window.acquireChart({
 					type: 'line',
 					data: {
-						labels: ['2017', '2019', '2023', '2025', '2042'],
+						labels: ['2017', '2023', '2023', '2025', '2042'],
 						datasets: [{data: [0, 1, 2, 3, 4, 5]}]
 					},
 					options: {
@@ -1056,7 +1056,7 @@ describe('Time scale tests', function() {
 				var slice = scale.width / (2042 - 2017);
 
 				expect(scale.getPixelForValue('2017')).toBeCloseToPixel(start);
-				expect(scale.getPixelForValue('2019')).toBeCloseToPixel(start + slice * (2019 - 2017));
+				expect(scale.getPixelForValue('2023')).toBeCloseToPixel(start + slice * (2023 - 2017));
 				expect(scale.getPixelForValue('2023')).toBeCloseToPixel(start + slice * (2023 - 2017));
 				expect(scale.getPixelForValue('2025')).toBeCloseToPixel(start + slice * (2025 - 2017));
 				expect(scale.getPixelForValue('2042')).toBeCloseToPixel(start + slice * (2042 - 2017));
@@ -1074,7 +1074,7 @@ describe('Time scale tests', function() {
 				var slice = scale.width / (2050 - 2012);
 
 				expect(scale.getPixelForValue('2017')).toBeCloseToPixel(start + slice * (2017 - 2012));
-				expect(scale.getPixelForValue('2019')).toBeCloseToPixel(start + slice * (2019 - 2012));
+				expect(scale.getPixelForValue('2023')).toBeCloseToPixel(start + slice * (2023 - 2012));
 				expect(scale.getPixelForValue('2023')).toBeCloseToPixel(start + slice * (2023 - 2012));
 				expect(scale.getPixelForValue('2025')).toBeCloseToPixel(start + slice * (2025 - 2012));
 				expect(scale.getPixelForValue('2042')).toBeCloseToPixel(start + slice * (2042 - 2012));
@@ -1244,7 +1244,7 @@ describe('Time scale tests', function() {
 					this.chart = window.acquireChart({
 						type: 'line',
 						data: {
-							labels: ['2017', '2019', '2023', '2025', '2042'],
+							labels: ['2017', '2023', '2023', '2025', '2042'],
 							datasets: [{data: [0, 1, 2, 3, 4, 5]}]
 						},
 						options: {

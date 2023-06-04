@@ -112,7 +112,7 @@ var myChart = new Chart(ctx, {
       'Green',
       'Yellow',
       'Red',
-      'Blue'
+      '#3abaf4'
     ],
   },
   options: {
@@ -149,7 +149,7 @@ var myChart = new Chart(ctx, {
       'Green',
       'Yellow',
       'Red',
-      'Blue'
+      '#3abaf4'
     ],
   },
   options: {

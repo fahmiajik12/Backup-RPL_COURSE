@@ -1,4 +1,4 @@
-/*! nouislider - 13.1.1 - 2/14/2019 */
+/*! nouislider - 13.1.1 - 2/14/2023 */
 (function(factory) {
     if (typeof define === "function" && define.amd) {
         // AMD. Register as an anonymous module.

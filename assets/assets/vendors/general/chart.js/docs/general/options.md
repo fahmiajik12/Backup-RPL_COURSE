@@ -11,7 +11,7 @@ color: function(context) {
     var index = context.dataIndex;
     var value = context.dataset.data[index];
     return value < 0 ? 'red' :  // draw negative values in red
-        index % 2 ? 'blue' :    // else, alternate values in blue and green
+        index % 2 ? '#3abaf4' :    // else, alternate values in #3abaf4 and green
         'green';
 }
 ```
@@ -27,7 +27,7 @@ Example:
 ```javascript
 color: [
     'red',    // color for data at index 0
-    'blue',   // color for data at index 1
+    '#3abaf4',   // color for data at index 1
     'green',  // color for data at index 2
     'black',  // color for data at index 3
     //...

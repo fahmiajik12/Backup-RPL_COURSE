@@ -44,6 +44,6 @@ var chartData = {
             pattern.draw('triangle', '#ffce56'),
         ]
     }],
-    labels: ['Red', 'Blue', 'Purple', 'Yellow']
+    labels: ['Red', '#3abaf4', 'Purple', 'Yellow']
 };
 ```

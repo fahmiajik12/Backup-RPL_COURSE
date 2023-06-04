@@ -1,6 +1,6 @@
 # Change Log
 
-## [4.0.6 - 2019-01-09]
+## [4.0.6 - 2023-01-09]
 ### Fixed
 Original placeholder disappear when mouseout in IE #2047
 
@@ -30,7 +30,7 @@ Behaviour of v3 with hours not possible anymore #1918
 
 ### Fixed
 - digits: 3 - error on transform #2022
-- "Can not read property 'join' of undefined" when using Inputmask.format #2019
+- "Can not read property 'join' of undefined" when using Inputmask.format #2023
 - Inputmask numeric does no round up when digits is 0 #2018
 - Strange Calendar popup issue in IE Only when used with Daterangepicker #1965
 - incorrect work min max date - #2011, #2013

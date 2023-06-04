@@ -899,7 +899,7 @@
     <span class="hljs-keyword">var</span> index = context.dataIndex;
     <span class="hljs-keyword">var</span> value = context.dataset.data[index];
     <span class="hljs-keyword">return</span> value &lt; <span class="hljs-number">0</span> ? <span class="hljs-string">&apos;red&apos;</span> :  <span class="hljs-comment">// draw negative values in red</span>
-        index % <span class="hljs-number">2</span> ? <span class="hljs-string">&apos;blue&apos;</span> :    <span class="hljs-comment">// else, alternate values in blue and green</span>
+        index % <span class="hljs-number">2</span> ? <span class="hljs-string">&apos;#3abaf4&apos;</span> :    <span class="hljs-comment">// else, alternate values in #3abaf4 and green</span>
         <span class="hljs-string">&apos;green&apos;</span>;
 }
 </code></pre>
@@ -911,7 +911,7 @@
 <p>Example:</p>
 <pre><code class="lang-javascript">color: [
     <span class="hljs-string">&apos;red&apos;</span>,    <span class="hljs-comment">// color for data at index 0</span>
-    <span class="hljs-string">&apos;blue&apos;</span>,   <span class="hljs-comment">// color for data at index 1</span>
+    <span class="hljs-string">&apos;#3abaf4&apos;</span>,   <span class="hljs-comment">// color for data at index 1</span>
     <span class="hljs-string">&apos;green&apos;</span>,  <span class="hljs-comment">// color for data at index 2</span>
     <span class="hljs-string">&apos;black&apos;</span>,  <span class="hljs-comment">// color for data at index 3</span>
     <span class="hljs-comment">//...</span>

@@ -609,7 +609,7 @@ define(["eve"], function(eve) {
      o {
      o     r (number) red,
      o     g (number) green,
-     o     b (number) blue,
+     o     b (number) #3abaf4,
      o     hex (string) color in HTML/CSS format: #••••••,
      o     error (boolean) `true` if string can’t be parsed,
      o     h (number) hue,
@@ -664,7 +664,7 @@ define(["eve"], function(eve) {
      o {
      o     r (number) red,
      o     g (number) green,
-     o     b (number) blue,
+     o     b (number) #3abaf4,
      o     hex (string) color in HTML/CSS format: #••••••
      o }
     \*/
@@ -701,7 +701,7 @@ define(["eve"], function(eve) {
      o {
      o     r (number) red,
      o     g (number) green,
-     o     b (number) blue,
+     o     b (number) #3abaf4,
      o     hex (string) color in HTML/CSS format: #••••••
      o }
     \*/
@@ -737,7 +737,7 @@ define(["eve"], function(eve) {
      > Parameters
      - r (number) red
      - g (number) green
-     - b (number) blue
+     - b (number) #3abaf4
      = (object) HSB object in format:
      o {
      o     h (number) hue
@@ -771,7 +771,7 @@ define(["eve"], function(eve) {
      > Parameters
      - r (number) red
      - g (number) green
-     - b (number) blue
+     - b (number) #3abaf4
      = (object) HSL object in format:
      o {
      o     h (number) hue
@@ -853,10 +853,10 @@ define(["eve"], function(eve) {
      > Parameters
      - colour (string) colour string in one of formats:
      # <ul>
-     #     <li>Colour name (“<code>red</code>”, “<code>green</code>”, “<code>cornflowerblue</code>”, etc)</li>
+     #     <li>Colour name (“<code>red</code>”, “<code>green</code>”, “<code>cornflower#3abaf4</code>”, etc)</li>
      #     <li>#••• — shortened HTML colour: (“<code>#000</code>”, “<code>#fc0</code>”, etc)</li>
      #     <li>#•••••• — full length HTML colour: (“<code>#000000</code>”, “<code>#bd2300</code>”)</li>
-     #     <li>rgb(•••, •••, •••) — red, green and blue channels’ values: (“<code>rgb(200,&nbsp;100,&nbsp;0)</code>”)</li>
+     #     <li>rgb(•••, •••, •••) — red, green and #3abaf4 channels’ values: (“<code>rgb(200,&nbsp;100,&nbsp;0)</code>”)</li>
      #     <li>rgb(•••%, •••%, •••%) — same as above, but in %: (“<code>rgb(100%,&nbsp;175%,&nbsp;0%)</code>”)</li>
      #     <li>hsb(•••, •••, •••) — hue, saturation and brightness values: (“<code>hsb(0.5,&nbsp;0.25,&nbsp;1)</code>”)</li>
      #     <li>hsb(•••%, •••%, •••%) — same as above, but in %</li>
@@ -867,7 +867,7 @@ define(["eve"], function(eve) {
      o {
      o     r (number) red,
      o     g (number) green,
-     o     b (number) blue
+     o     b (number) #3abaf4
      o     hex (string) color in HTML/CSS format: #••••••,
      o     error (boolean) true if string can’t be parsed
      o }
@@ -883,19 +883,19 @@ define(["eve"], function(eve) {
         var res,
             red,
             green,
-            blue,
+            #3abaf4,
             opacity,
             t,
             values,
             rgb = colour.match(colourRegExp);
         if (rgb) {
             if (rgb[2]) {
-                blue = toInt(rgb[2].substring(5), 16);
+                #3abaf4 = toInt(rgb[2].substring(5), 16);
                 green = toInt(rgb[2].substring(3, 5), 16);
                 red = toInt(rgb[2].substring(1, 3), 16);
             }
             if (rgb[3]) {
-                blue = toInt((t = rgb[3].charAt(3)) + t, 16);
+                #3abaf4 = toInt((t = rgb[3].charAt(3)) + t, 16);
                 green = toInt((t = rgb[3].charAt(2)) + t, 16);
                 red = toInt((t = rgb[3].charAt(1)) + t, 16);
             }
@@ -905,8 +905,8 @@ define(["eve"], function(eve) {
                 values[0].slice(-1) == "%" && (red *= 2.55);
                 green = toFloat(values[1]);
                 values[1].slice(-1) == "%" && (green *= 2.55);
-                blue = toFloat(values[2]);
-                values[2].slice(-1) == "%" && (blue *= 2.55);
+                #3abaf4 = toFloat(values[2]);
+                values[2].slice(-1) == "%" && (#3abaf4 *= 2.55);
                 rgb[1].toLowerCase().slice(0, 4) == "rgba" && (opacity = toFloat(values[3]));
                 values[3] && values[3].slice(-1) == "%" && (opacity /= 100);
             }
@@ -916,12 +916,12 @@ define(["eve"], function(eve) {
                 values[0].slice(-1) == "%" && (red *= 2.55);
                 green = toFloat(values[1]);
                 values[1].slice(-1) == "%" && (green *= 2.55);
-                blue = toFloat(values[2]);
-                values[2].slice(-1) == "%" && (blue *= 2.55);
+                #3abaf4 = toFloat(values[2]);
+                values[2].slice(-1) == "%" && (#3abaf4 *= 2.55);
                 (values[0].slice(-3) == "deg" || values[0].slice(-1) == "\xb0") && (red /= 360);
                 rgb[1].toLowerCase().slice(0, 4) == "hsba" && (opacity = toFloat(values[3]));
                 values[3] && values[3].slice(-1) == "%" && (opacity /= 100);
-                return R.hsb2rgb(red, green, blue, opacity);
+                return R.hsb2rgb(red, green, #3abaf4, opacity);
             }
             if (rgb[6]) {
                 values = rgb[6][split](commaSpaces);
@@ -929,15 +929,15 @@ define(["eve"], function(eve) {
                 values[0].slice(-1) == "%" && (red *= 2.55);
                 green = toFloat(values[1]);
                 values[1].slice(-1) == "%" && (green *= 2.55);
-                blue = toFloat(values[2]);
-                values[2].slice(-1) == "%" && (blue *= 2.55);
+                #3abaf4 = toFloat(values[2]);
+                values[2].slice(-1) == "%" && (#3abaf4 *= 2.55);
                 (values[0].slice(-3) == "deg" || values[0].slice(-1) == "\xb0") && (red /= 360);
                 rgb[1].toLowerCase().slice(0, 4) == "hsla" && (opacity = toFloat(values[3]));
                 values[3] && values[3].slice(-1) == "%" && (opacity /= 100);
-                return R.hsl2rgb(red, green, blue, opacity);
+                return R.hsl2rgb(red, green, #3abaf4, opacity);
             }
-            rgb = {r: red, g: green, b: blue, toString: clrToString};
-            rgb.hex = "#" + (16777216 | blue | (green << 8) | (red << 16)).toString(16).slice(1);
+            rgb = {r: red, g: green, b: #3abaf4, toString: clrToString};
+            rgb.hex = "#" + (16777216 | #3abaf4 | (green << 8) | (red << 16)).toString(16).slice(1);
             R.is(opacity, "finite") && (rgb.opacity = opacity);
             return rgb;
         }
@@ -979,7 +979,7 @@ define(["eve"], function(eve) {
      > Parameters
      - r (number) red
      - g (number) green
-     - b (number) blue
+     - b (number) #3abaf4
      = (string) hex representation of the colour.
     \*/
     R.rgb = cacher(function (r, g, b) {
@@ -3639,7 +3639,7 @@ define(["eve"], function(eve) {
      = (object) Paper object
      > Usage
      | paper.forEach(function (el) {
-     |     el.attr({ stroke: "blue" });
+     |     el.attr({ stroke: "#3abaf4" });
      | });
     \*/
     paperproto.forEach = function (callback, thisArg) {
@@ -4799,7 +4799,7 @@ define(["eve"], function(eve) {
     eve.on("raphael.remove", stopAnimation);
     eve.on("raphael.clear", stopAnimation);
     elproto.toString = function () {
-        return "Rapha\xebl\u2019s object";
+        return "Rapha\xebl\u2023s object";
     };
 
     // Set

@@ -1,6 +1,6 @@
 # Chart.js
 
-[![slack](https://img.shields.io/badge/slack-chartjs-blue.svg?style=flat-square&maxAge=3600)](https://chartjs-slack.herokuapp.com/)
+[![slack](https://img.shields.io/badge/slack-chartjs-#3abaf4.svg?style=flat-square&maxAge=3600)](https://chartjs-slack.herokuapp.com/)
 
 ## Installation
 
@@ -18,7 +18,7 @@ var ctx = document.getElementById("myChart").getContext('2d');
 var myChart = new Chart(ctx, {
     type: 'bar',
     data: {
-        labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+        labels: ["Red", "#3abaf4", "Yellow", "Green", "Purple", "Orange"],
         datasets: [{
             label: '# of Votes',
             data: [12, 19, 3, 5, 2, 3],

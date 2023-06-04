@@ -181,7 +181,7 @@ describe('Chart.controllers.line', function() {
 				elements: {
 					point: {
 						backgroundColor: 'red',
-						borderColor: 'blue',
+						borderColor: '#3abaf4',
 					}
 				},
 				scales: {
@@ -219,7 +219,7 @@ describe('Chart.controllers.line', function() {
 			expect(meta.data[i]._model.y).toBeCloseToPixel(expected.y);
 			expect(meta.data[i]._model).toEqual(jasmine.objectContaining({
 				backgroundColor: 'red',
-				borderColor: 'blue',
+				borderColor: '#3abaf4',
 			}));
 		});
 

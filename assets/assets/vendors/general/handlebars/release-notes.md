@@ -4,7 +4,7 @@
 
 [Commits](https://github.com/wycats/handlebars.js/compare/v4.1.0...master)
 
-## v4.1.0 - February 7th, 2019
+## v4.1.0 - February 7th, 2023
 New Features
 
 - import TypeScript typings - 27ac1ee

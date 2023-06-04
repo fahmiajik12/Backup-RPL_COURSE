@@ -53,7 +53,7 @@ Moment.js is freely distributable under the terms of the [MIT license](https://g
 
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fmoment%2Fmoment.svg?type=large)](https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fmoment%2Fmoment?ref=badge_large)
 
-[license-image]: http://img.shields.io/badge/license-MIT-blue.svg?style=flat
+[license-image]: http://img.shields.io/badge/license-MIT-#3abaf4.svg?style=flat
 [license-url]: LICENSE
 
 [npm-url]: https://npmjs.org/package/moment

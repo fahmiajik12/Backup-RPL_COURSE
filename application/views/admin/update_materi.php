@@ -1,15 +1,4 @@
-<!--
-@Project: Socamp
-@Programmer: Kelompok1
-@Website: https://linktr.ee/syauqi
-@Email : syaokay@gmail.com
 
-@About-Socamp :
-Web Edukasi Open Source yang dibuat oleh Kelompok1.
-Socamp adalah Web edukasi yang dilengkapi video, materi dan sistem ujian
-yang tersedia secara gratis. Socamp dibuat ditujukan agar para siswa dan
-guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
--->
 
 <!DOCTYPE html>
 <html lang="en" style="scroll-behavior: smooth;">
@@ -68,7 +57,7 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                 <aside id="sidebar-wrapper">
                     <div class="sidebar-brand text-danger">
                         <div>
-                            <a href="<?= base_url('admin') ?>" style="font-size: 30px; font-weight: 900; font-family: 'Poppins', sans-serif; color: blue;" class="text-success text-center"><i style="font-size: 30px;" class="fas fa-graduation-cap"></i> |
+                            <a href="<?= base_url('admin') ?>" style="font-size: 30px; font-weight: 900; font-family: 'Poppins', sans-serif; color: #3abaf4;" ><i style="font-size: 30px;" class="fas fa-graduation-cap"></i> |
                                 Socamp <sup>beta</sup> </a>
                         </div>
                     </div>

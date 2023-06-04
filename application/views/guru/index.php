@@ -1,15 +1,4 @@
-<!--
-@Project: Socamp
-@Programmer: Kelompok1
-@Website: https://linktr.ee/syauqi
-@Email : syaokay@gmail.com
 
-@About-Socamp :
-Web Edukasi Open Source yang dibuat oleh Kelompok1.
-Socamp adalah Web edukasi yang dilengkapi video, materi dan sistem ujian
-yang tersedia secara gratis. Socamp dibuat ditujukan agar para siswa dan
-guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
--->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -420,7 +409,7 @@ echo $data['user']['nama_guru'];
                         <!-- begin:: Footer -->
                         <div class="kt-footer kt-grid__item kt-grid kt-grid--desktop kt-grid--ver-desktop">
                             <div class="kt-footer__copyright">
-                                2023&nbsp;&copy;&nbsp;<a href="https://syauqizaidan.github.io/" target="_blank"
+                                2023&nbsp;&copy;&nbsp;<a href="#" target="_blank"
                                     class="kt-link">Kelompok1</a>
                             </div>
                             <div class="kt-footer__menu">

@@ -2,7 +2,7 @@
     "config": {
         "type": "bar",
         "data": {
-            "labels": ["2017", "2018", "2019", "2024", "2025"],
+            "labels": ["2017", "2018", "2023", "2024", "2025"],
             "datasets": [{
                 "backgroundColor": "rgba(255, 99, 132, 0.5)",
                 "data": [1, null, 3, 4, 5]

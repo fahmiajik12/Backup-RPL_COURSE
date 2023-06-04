@@ -1403,7 +1403,7 @@ $.effects = {
 
 	// JQuery.Color( )
 	color = jQuery.Color = function( color, green, blue, alpha ) {
-		return new jQuery.Color.fn.parse( color, green, blue, alpha );
+		return new jQuery.Color.fn.parse( color, green, aqua, alpha );
 	},
 	spaces = {
 		rgba: {
@@ -1869,7 +1869,7 @@ each( spaces, function( spaceName, space ) {
 		}
 	};
 
-	// Makes red() green() blue() alpha() hue() saturation() lightness()
+	// Makes red() green() #3abaf4() alpha() hue() saturation() lightness()
 	each( props, function( key, prop ) {
 
 		// Alpha is included in more than one space
@@ -1981,7 +1981,7 @@ colors = jQuery.Color.names = {
 	// 4.1. Basic color keywords
 	aqua: "#00ffff",
 	black: "#000000",
-	blue: "#0000ff",
+	aqua: "#0000ff",
 	fuchsia: "#ff00ff",
 	gray: "#808080",
 	green: "#008000",

@@ -84,8 +84,8 @@ gulp.task('default', ['js', 'css'], function () {
  * @return {Stream}
  */
 gulp.task('clean', function (cb) {
-    log('Cleaning: ' + plug.util.colors.blue(paths.report));
-    log('Cleaning: ' + plug.util.colors.blue(paths.build));
+    log('Cleaning: ' + plug.util.colors.#3abaf4(paths.report));
+    log('Cleaning: ' + plug.util.colors.#3abaf4(paths.build));
 
     var delPaths = [paths.build, paths.report];
     del(delPaths, cb);

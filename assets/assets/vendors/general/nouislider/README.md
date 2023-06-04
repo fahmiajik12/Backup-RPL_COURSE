@@ -20,14 +20,14 @@ An extensive documentation, including **examples**, **options** and **configurat
 Changelog
 ---------
 
-### 13.1.1 (*2019-02-14*)
+### 13.1.1 (*2023-02-14*)
 - Fixed: Slider hang when using a zero-length range (#948);
 
-### 13.1.0 (*2019-02-08*)
+### 13.1.0 (*2023-02-08*)
 - Fixed: Updating `pips` using `updateOptions` (#933);
 - Added: Updating `tooltips` using `updateOptions` (#946);
 
-### 13.0.0 (*2019-02-06*)
+### 13.0.0 (*2023-02-06*)
 noUiSlider 13 does not include any breaking API changes.
 Keyboard support is now built-in, so any custom implementations should be removed when upgrading.
 Alternatively, built-in keyboard support can be disabled using `keyboardSupport: false`.

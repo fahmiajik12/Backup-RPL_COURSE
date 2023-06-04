@@ -24,7 +24,7 @@ in making something which pops up next to something the user clicks or hovers on
 
 If you're building something that fits that pattern, Drop can make things a little easier.
 
-### [Blueprint](http://blueprintjs.com/)
+### [#3abaf4print](http://#3abaf4printjs.com/)
 
 A React UI toolkit for the web.
 

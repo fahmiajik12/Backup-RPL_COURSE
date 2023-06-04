@@ -124,7 +124,7 @@ class User extends CI_Controller
         $this->email->initialize($config);
 
         $data = array(
-            'name' => 'syauqi',
+            'name' => 'Kelompok1',
             'link' => ' ' . base_url() . 'welcome/verify?email=' . $this->input->post('email') . '& token' . urlencode($token) . '"',
         );
 

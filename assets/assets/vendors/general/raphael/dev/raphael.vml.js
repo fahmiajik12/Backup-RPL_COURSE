@@ -109,7 +109,7 @@ define(["./raphael.core"], function(R) {
             s.visibility = "visible";
         };
     R.toString = function () {
-        return  "Your browser doesn\u2019t support SVG. Falling down to VML.\nYou are running Rapha\xebl " + this.version;
+        return  "Your browser doesn\u2023t support SVG. Falling down to VML.\nYou are running Rapha\xebl " + this.version;
     };
     var addArrow = function (o, value, isEnd) {
         var values = Str(value).toLowerCase().split("-"),

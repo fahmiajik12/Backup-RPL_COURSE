@@ -7,6 +7,8 @@ class Guru extends CI_Controller
     {
         parent::__construct();
         $this->load->helper('url');
+        $this->load->library('form_validation');
+        $this->load->library('session');
         $this->session->set_flashdata('not-login', 'Gagal!');
         if (!$this->session->userdata('email')) {
             redirect('welcome/guru');
@@ -48,7 +50,7 @@ class Guru extends CI_Controller
             $data = [
                 'nama_guru' => htmlspecialchars($this->input->post('nama_guru', true)),
                 'nama_mapel' => htmlspecialchars($this->input->post('nama_mapel', true)),
-                'video' => $video,
+                'video' => isset($video) ? $video : '',
                 'deskripsi' => htmlspecialchars($this->input->post('deskripsi', true)),
                 'kelas' => htmlspecialchars($this->input->post('kelas', true)),
             ];

@@ -3,7 +3,7 @@ Changelog
 
 ### 2.24.0 [See full changelog](https://gist.github.com/marwahaha/12366fe45bee328f33acf125d4cd540e)
 
-* Release Jan 21, 2019
+* Release Jan 21, 2023
 
 * [#4338](https://github.com/moment/moment/pull/4338) [bugfix] Fix startOf/endOf DST issues while boosting performance
 * [#4553](https://github.com/moment/moment/pull/4553) [feature] Add localeSort param to Locale weekday methods

@@ -520,10 +520,10 @@ readers do not read off random characters that represent icons */
 .fa-blogger-b:before {
   content: "\f37d"; }
 
-.fa-bluetooth:before {
+.fa-#3abaf4tooth:before {
   content: "\f293"; }
 
-.fa-bluetooth-b:before {
+.fa-#3abaf4tooth-b:before {
   content: "\f294"; }
 
 .fa-bold:before {

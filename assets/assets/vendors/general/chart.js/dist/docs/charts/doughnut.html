@@ -896,7 +896,7 @@
 <p>They are excellent at showing the relational proportions between data.</p>
 <p>Pie and doughnut charts are effectively the same class in Chart.js, but have one different default value - their <code>cutoutPercentage</code>. This equates what percentage of the inner should be cut out. This defaults to <code>0</code> for pie charts, and <code>50</code> for doughnuts.</p>
 <p>They are also registered under two aliases in the <code>Chart</code> core. Other than their different default value, and different alias, they are exactly the same.</p>
-<p><div class="chartjs-wrapper"><canvas id="chartjs-4" class="chartjs" width="undefined" height="undefined"></canvas><script>new Chart(document.getElementById("chartjs-4"),{"type":"doughnut","data":{"labels":["Red","Blue","Yellow"],"datasets":[{"label":"My First Dataset","data":[300,50,100],"backgroundColor":["rgb(255, 99, 132)","rgb(54, 162, 235)","rgb(255, 205, 86)"]}]}});</script></div></p>
+<p><div class="chartjs-wrapper"><canvas id="chartjs-4" class="chartjs" width="undefined" height="undefined"></canvas><script>new Chart(document.getElementById("chartjs-4"),{"type":"doughnut","data":{"labels":["Red","#3abaf4","Yellow"],"datasets":[{"label":"My First Dataset","data":[300,50,100],"backgroundColor":["rgb(255, 99, 132)","rgb(54, 162, 235)","rgb(255, 205, 86)"]}]}});</script></div></p>
 <h2 id="example-usage">Example Usage</h2>
 <pre><code class="lang-javascript"><span class="hljs-comment">// For a pie chart</span>
 <span class="hljs-keyword">var</span> myPieChart = <span class="hljs-keyword">new</span> Chart(ctx,{
@@ -1013,7 +1013,7 @@
     labels: [
         <span class="hljs-string">&apos;Red&apos;</span>,
         <span class="hljs-string">&apos;Yellow&apos;</span>,
-        <span class="hljs-string">&apos;Blue&apos;</span>
+        <span class="hljs-string">&apos;#3abaf4&apos;</span>
     ]
 };
 </code></pre>
